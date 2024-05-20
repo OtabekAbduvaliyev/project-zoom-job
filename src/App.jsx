@@ -110,7 +110,7 @@ function App() {
         </div>
       </header>
       <Routes>
-        <Route path="/" element={<RequiredAuth><Home /></RequiredAuth>} />
+        <Route path="/" element={<Home />} />
         <Route path='/pricing' element={<RequiredAuth><PlansPricing /></RequiredAuth>} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/signin" element={<SignIn/>} />
